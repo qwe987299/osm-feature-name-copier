@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         OSM 查詢圖徵項目名稱複製按鈕
 // @namespace    https://mnya.tw/
-// @version      1.0
+// @version      1.0.1
 // @description  在 OpenStreetMap 查詢圖徵的每個列表右邊新增一顆按鈕，以一鍵複製圖徵項目名稱。
 // @author       萌芽站長
+// @homepageURL  https://mnya.tw/dv/work/046.html
+// @supportURL   https://github.com/qwe987299/osm-feature-name-copier/
 // @match        *://www.openstreetmap.org/*
 // @icon         https://www.openstreetmap.org/favicon.ico
 // @grant        GM_setClipboard

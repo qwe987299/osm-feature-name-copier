@@ -1,7 +1,7 @@
 # OSM 查詢圖徵項目名稱複製按鈕 🗺️
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0-brightgreen.svg)](osm-feature-name-copier.user.js)
+[![Version](https://img.shields.io/badge/version-V1.0.1-brightgreen.svg)](osm-feature-name-copier.user.js)
 [![Tampermonkey](https://img.shields.io/badge/Tampermonkey-Supported-00485B?logo=tampermonkey)](https://www.tampermonkey.net/)
 [![Platform](https://img.shields.io/badge/Platform-OpenStreetMap-7EBC6F?logo=openstreetmap&logoColor=white)](https://www.openstreetmap.org/)
 
@@ -26,8 +26,7 @@
 - 🎯 **精準抓取**：只複製 `<a>` 標籤內的名稱文字，自動過濾掉前面的分類項目與多餘空白。
 - ⚡ **無縫整合**：採用 OSM 既有的 Bootstrap 樣式設計，並懸浮固定於右側，排版自然不突兀。
 - 🔄 **動態監聽**：支援 Turbo / Ajax 異步載入，換區查詢或點選不同圖徵時自動辨識，無需重新整理。
-- 🛡️ **穩定備援**：支援 `GM_setClipboard`、現代 `navigator.clipboard` 以及相容性備援方案，確保各種環境均可複製。
-- 🚀 **極致效能**：結合 `requestAnimationFrame` 與 MutationObserver 節流機制，完全不卡頓頁面操作。
+- 🛡️ **穩定複製**：使用 `GM_setClipboard` 剪貼簿 API，跨瀏覽器皆能穩定複製。
 
 ---
 
@@ -45,7 +44,7 @@
   2. 點開瀏覽器右上角腳本管理器圖示，選擇「**新增腳本**」。
   3. 將程式碼貼入並儲存（`Ctrl + S`）。
 - **網址直裝**：
-  點擊 Raw 檔案連結即可一鍵觸發擴充套件安裝畫面。
+  點擊 [Raw 檔案連結](https://raw.githubusercontent.com/qwe987299/osm-feature-name-copier/main/osm-feature-name-copier.user.js) 即可一鍵觸發擴充套件安裝畫面。
 
 ---
 
@@ -71,7 +70,11 @@
 
 ## 📝 更新日誌
 
-### v1.0
+### V1.0.1
+- 新增官方網站作品介紹頁面與 GitHub 儲存庫連結資訊。
+- 優化專案文件與安裝指引。
+
+### V1.0
 - 初版發布：支援 OpenStreetMap 查詢圖徵列表一鍵複製名稱功能。
 
 ---
@@ -79,5 +82,7 @@
 ## 💻 開發與授權
 
 - **作者**：萌芽站長
+- **官方網站**：[作品介紹頁面](https://mnya.tw/dv/work/046.html)
+- **原始碼倉庫**：[GitHub (qwe987299/osm-feature-name-copier)](https://github.com/qwe987299/osm-feature-name-copier/)
 - **版權**：萌芽系列網站 ‧ Mnya Series Website ‧ [Mnya.tw](https://mnya.tw)
 - **授權**：[MIT License](LICENSE)
